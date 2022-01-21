@@ -9,14 +9,28 @@ body {
 a {
     color: #e5e7eb;
 }
+
+button {
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
 .header {
-    border: 5px solid salmon;
     background-color: #1F2937;
     color: #e5e7eb;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 .hero {
-    border: 5px solid greenyellow;
     background-color: #1f2937;
     display: flex;
     justify-content: space-around;
@@ -30,13 +44,77 @@ a {
 
 .under-title {
     color: #e5e7eb;
+    text-align: left;
 }
 
-button {
+.some-random-info {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boxes {
+    font-size: 18px;
+    font-weight: 300;
+    gap: 8%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.a {
+    border: 5px solid green;
+}
+
+.quote-container {
+    border: 5px solid red;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #e5e7eb;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight:200;
+    text-align: left;
+}
+
+.quoter {
+    font-weight: 300;
+    font-size: 36px;
+    font-weight:500;
+    text-align: right;
+}
+
+.call-to-action-container {
+    border: 5px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-card {
+    border: 5px solid pink;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: space-around;
+}
+
+.call-to-action-button {
     background-color: #3882f6;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 1px 1px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -45,8 +123,8 @@ button {
 }
 
 .footer {
-    height: 100px;
-    position: fixed;
+    height: 90px;
+    position:static;
     left: 0;
     bottom: 0;
     width: 100%;
