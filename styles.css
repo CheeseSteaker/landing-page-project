@@ -8,6 +8,7 @@ body {
 
 a {
     color: #e5e7eb;
+    text-decoration: none;
 }
 
 button {
@@ -22,23 +23,38 @@ button {
     border-radius: 5px;
 }
 
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    list-style-type: none;
+}
+
 .header {
+    border: 5px solid red;
     background-color: #1F2937;
     color: #e5e7eb;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
     flex-wrap: nowrap;
 }
 
 .hero {
     background-color: #1f2937;
+    padding-left: 155px;
+    padding-right: 155px;
+    padding-top: 50px;
     display: flex;
     justify-content: space-around;
 }
 
 .title {
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 700;
     color: #f9faf8;
 }
 
@@ -49,10 +65,10 @@ button {
 
 .some-random-info {
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 150px;
     text-align: center;
     font-size: 36px;
-    font-weight: 900;
+    font-weight: 700;
     color: #1F2937;
     display: flex;
     justify-content: center;
@@ -63,7 +79,7 @@ button {
 .boxes {
     font-size: 18px;
     font-weight: 300;
-    gap: 8%;
+    gap: 75px;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -75,8 +91,8 @@ button {
 
 .quote-container {
     border: 5px solid red;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     padding-left: 200px;
     padding-right: 200px;
     background-color: #e5e7eb;
@@ -94,7 +110,6 @@ button {
 }
 
 .call-to-action-container {
-    border: 5px solid blue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,7 +138,7 @@ button {
 }
 
 .footer {
-    height: 90px;
+    height: 75px;
     position:static;
     left: 0;
     bottom: 0;
