@@ -26,49 +26,54 @@ button {
 ul {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 25px;
     list-style-type: none;
 }
 
 .header {
-    border: 5px solid red;
     background-color: #1F2937;
     color: #e5e7eb;
     text-align: center;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex: 1;
 }
 
 .hero {
     background-color: #1f2937;
-    padding-left: 155px;
-    padding-right: 155px;
+    padding-left: 200px;
+    padding-right: 200px;
     padding-top: 50px;
+    padding-bottom: 70px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25%;
 }
 
 .title {
     font-size: 48px;
     font-weight: 700;
     color: #f9faf8;
+    max-width: 350px;
 }
 
 .under-title {
     color: #e5e7eb;
     text-align: left;
+    max-width: 400px;
 }
 
 .some-random-info {
-    padding-top: 10px;
-    padding-bottom: 150px;
+    padding-top: 6px;
+    padding-bottom: 10%;
     text-align: center;
     font-size: 36px;
-    font-weight: 700;
+    font-weight: 500;
     color: #1F2937;
     display: flex;
     justify-content: center;
@@ -80,17 +85,13 @@ ul {
     font-size: 18px;
     font-weight: 300;
     gap: 75px;
+    max-width: 150px;
     display: flex;
     justify-content: center;
     flex-direction: row;
 }
 
-.a {
-    border: 5px solid green;
-}
-
 .quote-container {
-    border: 5px solid red;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 200px;
@@ -105,7 +106,7 @@ ul {
 .quoter {
     font-weight: 300;
     font-size: 36px;
-    font-weight:500;
+    font-weight:400;
     text-align: right;
 }
 
